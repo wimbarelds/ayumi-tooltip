@@ -1,2 +1,3 @@
 # ayumi-tooltip
-Show tooltip on ayumi-love for champion-links
+
+Chrome Extension to show tooltip on ayumi-love for champion-links

@@ -1,0 +1,17 @@
+{
+    "name": "Ayumi-Tooltip",
+    "version": "1.0.0",
+    "description": "Adds tooltips to champion links",
+    "permissions": [
+        "https://ayumilove.net/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://ayumilove.net/*"],
+            "js": ["ayumi-tooltip.js"],
+            "run_at": "document_end",
+            "all_frames": true
+        }
+    ],
+    "manifest_version": 2
+}
